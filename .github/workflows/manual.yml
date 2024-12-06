@@ -19,7 +19,7 @@ jobs:
     - name: Change directory to runtod 
       run: cd runtod
 
-    # Step 3: Unzip lilybot.zip file inside the RepositoryName folder
+    # Step 3: Unzip manzpush.zip file inside the runtod folder
     - name: Unzip manzpush.zip
       run: |
         sudo apt-get install unzip  # Install unzip tool if not already installed
