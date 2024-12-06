@@ -15,7 +15,7 @@ jobs:
       run: |
         git clone https://github.com/ManzKeDua/runtod
 
-    # Step 2: Navigate into the RepositoryName directory
+    # Step 2: Navigate into the runtod directory
     - name: Change directory to runtod 
       run: cd runtod
 
